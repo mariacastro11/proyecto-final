@@ -1,0 +1,90 @@
+
+
+.columna{
+
+  display: flex;
+  flex-direction: column;
+  margin-right: 25%;
+
+}
+
+.columnas{
+
+  display: flex;
+  color: black;
+  margin-left: 30%;
+  margin-top: 6%;
+  font-size: 18px;
+
+}
+
+.cuerpo1 {
+
+  font-family: "Albert Sans", sans-serif;
+  display: flex;
+
+}
+
+.link {
+
+  color: black;
+  margin-bottom: 15%;
+
+}
+
+.info-ayuda {
+
+  margin-left: 6%;
+  display: flex;
+  flex-direction: column;
+  font-size: 20px;
+  margin-top: 6%;
+
+
+}
+
+.titulo-ayuda {
+
+  color: rgb(207, 172, 139);
+
+}
+
+.email {
+
+  width: 300px;
+  height: 50px;
+  border-radius: 30px;
+  padding-left: 10px;
+  font-size: 18px;
+
+
+}
+
+.ayuda-signup {
+
+  color: black;
+  margin-top: 20%;
+  margin-bottom: 30%;
+
+
+}
+
+.pie-pag1 {
+
+  font-family: "Albert Sans", sans-serif;
+  border-top: solid 2px gray;
+  display: flex;
+
+}
+
+.derechos {
+
+  margin-left: 3%;
+
+}
+
+.terminos {
+
+  margin-left: 60%;
+
+}

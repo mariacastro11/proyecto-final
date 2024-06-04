@@ -1,0 +1,116 @@
+.barra-nav {
+    border-bottom: solid 2px rgb(207, 172, 139);
+    height: 280px;
+}
+
+.cuerpo {
+    flex-direction: column;
+    margin-left: 5%;
+    display: flex;
+    align-items: center; /* Center the content horizontally */
+    justify-content: center; /* Center the content vertically */
+}
+
+.opciones-busq {
+    margin-left: 25%;
+}
+
+.opciones-cuenta {
+    display: flex;
+}
+
+.mi-cuenta {
+    font-size: 45px;
+    color: rgb(207, 172, 139);
+    margin-bottom: 0;
+}
+
+.saludo {
+    font-size: 25px;
+    margin-top: 0;
+}
+
+.sing-out {
+    width: 250px;
+    height: 60px;
+    border-radius: 10px;
+    background-color: white;
+    color: black;
+    font-size: 15px;
+    margin-bottom: 4%;
+    margin-top: 20px; /* Add margin-top to create space between products and the button */
+}
+
+.area-opciones {
+    display: flex;
+    margin-left: 3%;
+}
+
+.opciones {
+    margin-left: 8px;
+    font-size: 20px;
+    color: black;
+    margin-bottom: 55px;
+}
+
+#icono-cuenta {
+    font-size: 31px;
+}
+
+#icono-cuenta2 {
+    font-size: 30px;
+}
+
+#icono-cuenta3 {
+    font-size: 36px;
+}
+
+.opciones1 {
+    margin-bottom: 2%;
+}
+
+.pie-pag {
+    height: 150px;
+    background-color: rgb(207, 172, 139);
+}
+
+.productos {
+    display: flex;
+    flex-wrap: wrap; /* Allows items to wrap to the next line if they don't fit */
+    justify-content: center; /* Center the items horizontally */
+    gap: 20px; /* Space between items */
+}
+
+.producto {
+    background-color: white;
+    height: 420px;
+    width: 270px;
+    box-shadow: 4px 6px 26px -12px rgba(0, 0, 0, 0.76);
+    margin: 20px; /* Adjust the margin to control spacing around the items */
+}
+
+.img-producto {
+    width: 270px;
+    height: auto;
+}
+
+.texto-producto {
+    padding-left: 20px;
+}
+
+.nombre-produc {
+    color: gray;
+}
+
+.elementos-produc {
+    display: flex;
+}
+
+.delete-icon {
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.detele-icon:hover {
+    color: #ff4444; /* Cambia el color cuando el cursor se posa sobre el icono */
+}

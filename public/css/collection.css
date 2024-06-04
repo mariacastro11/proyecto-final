@@ -1,0 +1,180 @@
+body{
+
+  margin: 0;
+  padding: 0;
+
+}
+
+.barra-nav {
+
+  text-align: center;
+  border-bottom: solid 2px rgb(207, 172, 139);
+  height: 310px;
+
+}
+
+.titulo {
+
+  font-family: "Archivo Black", sans-serif;
+  color: rgb(207, 172, 139);
+  font-size: 45px;
+  margin-top: 3%;
+  
+
+
+}
+
+.opciones-busq {
+
+  font-family: "Albert Sans", sans-serif;
+  display: flex;
+  margin-top: 80px;
+
+}
+
+.barra-busq {
+
+  height: 40px;
+  width: 410px;
+  margin-right: 3%;
+  border-radius: 30px;
+  background-color: rgb(207, 172, 139);
+  border: none;
+  outline: none;
+  font-size: 25px;
+  padding-top: 10px;
+  padding-left: 10px;
+  
+
+}
+
+.area-busq {
+
+  display: flex;
+  position: relative;
+  width: 420px; 
+  height: 50px;  
+  box-sizing: border-box;
+  margin-left: 2%;
+  margin-right: 3%;
+  border-radius: 30px;
+  margin-bottom: 4%;
+  background-color: rgb(207, 172, 139);
+  
+
+
+}
+
+.botones-busq {
+
+  color: black;
+  margin-right: 6%;
+  font-size: 25px;
+
+
+
+}
+
+#icono-busq{
+
+  color: white;
+  padding-right: 10px;
+  padding-bottom: 15px;
+  font-size: 50px;
+
+}
+
+.material-symbols-outlined {
+
+  color: rgb(207, 172, 139);
+  font-size: 70px;
+  
+
+}
+
+.cuerpo {
+
+  font-family: "Albert Sans", sans-serif;
+  display: flex;
+
+}
+
+.texto-tienda {
+
+  margin-left: 5%;
+  margin-top: 2%;
+  font-size: 35px;
+  font-weight: 100;
+
+}
+
+.productos {
+
+  display: flex;
+
+}
+
+.producto {
+
+  background-color:white;
+  height: 420px;
+  width: 270px;
+  -webkit-box-shadow: 4px 6px 26px -12px rgba(0,0,0,0.76);
+  -moz-box-shadow: 4px 6px 26px -12px rgba(0,0,0,0.76);
+  box-shadow: 4px 6px 26px -12px rgba(0,0,0,0.76);
+  margin-left: 60px;
+  margin-top: 80px;
+
+}
+
+.img-producto {
+
+  width: 270px;
+  height: auto;
+
+}
+
+.texto-producto {
+
+  padding-left: 20px;
+  
+  
+
+}
+
+.nombre-produc {
+
+  color: gray;
+
+
+}
+
+.elementos-produc {
+
+  display: flex;
+
+}
+
+#favorito {
+
+  padding-left: 40%;
+  padding-top: 30%;
+  font-size: 50px;
+ 
+}
+
+#favorito1 {
+
+  padding-left: 28%;
+  padding-top: 30%;
+  font-size: 50px;
+ 
+}
+
+#favorito2 {
+
+  padding-left: 26%;
+  padding-top: 30%;
+  font-size: 50px;
+
+}

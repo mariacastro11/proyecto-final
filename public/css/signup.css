@@ -1,0 +1,93 @@
+body {
+    font-family: 'Albert Sans','Archivo Black',sans-serif;
+    margin: 0;
+}
+
+.guide {
+    padding-left: 25px;
+    font-size: 12px;
+}
+
+.title {
+    font-size: 32px;
+    text-align: center;
+    margin-bottom: 10PX;
+}
+
+.link {
+    text-align: center;
+    margin-bottom: 35%;
+    font-size: 16px;
+}
+
+.left-space {
+    padding-top: 30%;
+    text-align: center;
+    float: left;
+    width: 35%;
+    height: 100%;
+    background-color: #cfb4a4;
+}
+
+.right-space {
+    margin-left: 35%;
+    height: 100%;
+    background-color: #ffffff;
+    padding-top: 2.5%;
+    padding-left: 20%;
+    padding-right: 20%;
+}
+
+.container {
+    margin: 0 auto;
+    height: 695px;    
+}
+
+h1 {
+    font-family: 'Archivo Black';
+    font-weight: 400;
+    color: #ffffff;
+    font-size: 40px;
+}
+
+form {
+    margin: 0;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input {
+    width: 100%;
+    height: 5%;
+    padding: 5px;
+    margin-bottom: 15px;
+    border-radius: 25px;
+}
+
+button {
+    margin-left: 32.5%;
+    margin-top: 15px;
+    height: 4%;
+    background-color: #cfb4a4;
+    color: #fff;
+    padding: 5px 10px;
+    border-radius: 25px;
+    cursor: pointer;
+    width: 40%;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+
+@media (max-width: 768px) {
+    .container {
+        max-width: 100%;
+    }
+}
